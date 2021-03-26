@@ -12,5 +12,7 @@ public class Main
         System.out.println("La suma es de: "+suma);
         int resta = N1 - N2;
         System.out.println("La resta es de: "+resta);
+        int multi = N1 * N2;
+        System.out.println("La multiplicacion es de: "+multi);
     }
 }
