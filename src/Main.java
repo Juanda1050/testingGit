@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main
@@ -16,5 +17,10 @@ public class Main
         System.out.println("La multiplicacion es de: "+multi);
         int division = N1 / N2;
         System.out.println("la division es de: "+division);
+        for (int i = 1; i < 11; i++)
+        {
+            int tabla = i * N1;
+            System.out.println(tabla);
+        }
     }
 }
